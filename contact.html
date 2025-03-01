@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Coffee Shop</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color:  #631d06;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.contact-info, .contact-form {
+    margin-bottom: 40px;
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3e2723;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info ul li strong {
+    color: #8d6e63;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #3e2723;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #8d6e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #6d4c41;
+}
+
+/* Map Section */
+.map-section {
+    padding: 40px 0;
+    background-color: #edfaf7;
+   
+}
+
+.map-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3e2723;
+}
+
+/* Footer Styles */
+footer {
+    background:  #631d06;;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We love to hear from you! Reach out to us for any questions or feedback.</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Visit us or send us a message. We're here to help!</p>
+                <ul>
+                    <li><strong>Address:</strong> Perambalur, Bus stop near. </li>
+                    <li><strong>Phone:</strong> 8220209707 </li>
+                    <li><strong>Email:</strong> aanandh0825@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Our Location</h2>
+           <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15653.435507099386!2d78.87845351802967!3d11.234988743525065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1b69f8350197%3A0x70ef43f0315a8d8b!2sPerambalur%2C%20Tamil%20Nadu%20621212!5e0!3m2!1sen!2sin!4v1740756996536!5m2!1sen!2sin" width="1200" height="500" style="border: 10px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center> 
+                 
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; COFFEE HOUSE @ perambalur</p>
+        </div>
+    </footer>
+</body>
+</html>

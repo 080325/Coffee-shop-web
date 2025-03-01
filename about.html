@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Coffee Shop</title>
+   
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
+
+/* Header Styles */
+header {
+    background-color: #631d06;
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(238, 238, 238);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #3e2723;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 40px 0;
+    background-color:  #ecdcd5;
+}
+
+.mission-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #3e2723;
+}
+
+.mission-section ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mission-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.mission-section ul li::before {
+    content: "☕";
+    position: absolute;
+    left: 0;
+    color: #8d6e63;
+}
+
+/* Team Section */
+.team-section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #3e2723;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.team-member {
+    text-align: center;
+    width: 250px;
+    background-color: #ecdcd5;
+    border-radius: 15px;
+}
+
+.team-member:hover{
+    background-color: #c9caca ;
+    border: solid rgb(90, 16, 11) 2px;
+}
+
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+    color: #3e2723;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #6d4c41;
+}
+
+/* Footer Styles */
+footer {
+    background: #631d06;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Discover the story behind our passion for coffee.</p>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>Our Story</h2>
+            <p>Welcome to <strong>Coffee Haven</strong>, where every cup tells a story. Founded in 2023, our coffee shop was born out of a love for high-quality coffee and a desire to create a warm, welcoming space for our community. We source our beans from sustainable farms around the world and roast them in-house to ensure the freshest flavor in every sip.</p>
+            <p>Our mission is simple: to provide exceptional coffee, delicious pastries, and a cozy atmosphere where you can relax, connect, and enjoy the little moments in life.</p>
+        </div>
+    </section>
+
+    <section class="mission-section">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>At <strong>Coffee Haven</strong>, we are committed to:</p>
+            <ul>
+                <li>Serving the finest, ethically sourced coffee.</li>
+                <li>Creating a welcoming environment for everyone.</li>
+                <li>Supporting local farmers and sustainable practices.</li>
+                <li>Inspiring connections and creativity through coffee.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                   
+                    <h3>Anandh</h3>
+                    <p>Founder & Head Barista</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    
+                    <h3>Vicky</h3>
+                    <p>Pastry Chef</p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    
+                    <h3>Akash</h3>
+                    <p>Coffee Roaster</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; COFFEE HOUSE @ perambalur</p>
+        </div>
+    </footer>
+</body>
+</html>

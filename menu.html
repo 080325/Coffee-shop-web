@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Menu</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #631d06;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px 0;
+    background-color: #e0cac0;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #3e2723;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    background: #f4f1ea;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #3e2723;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #6d4c41;
+    padding: 0 15px;
+}
+
+.menu-item .price {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8d6e63;
+    margin: 15px 0;
+}
+.menu-item button{
+    background-color: rgb(243, 199, 189);
+    color: black;
+    border: solid rgb(143, 143, 143) 2px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.menu-item button:hover{
+    background-color: #631d06 ;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background:  #631d06;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Coffee Shop</h1>
+            <p>Serving the finest coffee since 2023</p>
+        </div>
+    </header>
+
+    <section class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <!-- Coffee Item 1 -->
+                <div class="menu-item">
+                    <img src="espresso.avif" alt="Espresso" height="200px" width="150px">
+                    <h3>Espresso</h3>
+                    <p>A strong and bold shot of espresso with Testy.</p>
+                    <span class="price">$52.50</span>
+                    <button>Buy</button>
+                </div>
+
+                <!-- Coffee Item 2 -->
+                <div class="menu-item">
+                    <img src="cappu.jpg" alt="Cappuccino" height="200px" width="150px">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and foam.</p>
+                    <span class="price">$60.50</span>
+                    <button>Buy</button>
+                </div>
+
+                <!-- Coffee Item 3 -->
+                <div class="menu-item">
+                    <img src="latte.avif" alt="Latte" height="200px" width="150px">
+                    <h3>Latte</h3>
+                    <p>Espresso with steamed milk and a light layer of foam.</p>
+                    <span class="price">$49.00</span>
+                    <button>Buy</button>
+                </div>
+
+                <!-- Coffee Item 4 -->
+                <div class="menu-item">
+                    <img src="mocha.avif" alt="Mocha" height="200px" width="150px">
+                    <h3>Mocha</h3>
+                    <p>Espresso with chocolate, steamed milk, and whipped cream.</p>
+                    <span class="price">$64.50</span>
+                    <button>Buy</button>
+                </div>
+
+                <!-- Coffee Item 5 -->
+                <div class="menu-item">
+                    <img src="americano.avif" alt="Americano" height="200px" width="150px">
+                    <h3>Americano</h3>
+                    <p>Espresso diluted with hot water for a lighter taste.</p>
+                    <span class="price">$32.00</span>
+                    <button>Buy</button>
+                </div>
+
+                <!-- Coffee Item 6 -->
+                <div class="menu-item">
+                    <img src="cold.webp" alt="Cold Brew" height="200px" width="150px">
+                    <h3>Cold Brew</h3>
+                    <p>Smooth and refreshing cold-brewed coffee.</p>
+                    <span class="price">$50.00</span>
+                    <button>Buy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; COFFEE HOUSE @ perambalur</p>
+        </div>
+    </footer>
+</body>
+</html>
